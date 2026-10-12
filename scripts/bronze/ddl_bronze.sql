@@ -56,8 +56,6 @@ IF OBJECT_ID ('bronze.erp_cust_az12', 'U') IS NOT NULL
 DROP TABLE bronze.erp_cust_az12;
 
 
-CID,BDATE,GEN
-
 CREATE TABLE bronze.erp_cust_az12 (
 CID NVARCHAR(50),
 BDATE DATE,
@@ -72,8 +70,6 @@ CID NVARCHAR(50),
 CNTRY NVARCHAR(50)
 );
 
-
-ID,CAT,SUBCAT,MAINTENANCE
 
 IF OBJECT_ID ('bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
 DROP TABLE bronze.erp_px_cat_g1v2;
