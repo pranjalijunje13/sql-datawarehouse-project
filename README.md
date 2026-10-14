@@ -22,6 +22,9 @@ The implementation is inspired by Baraa Khatib Salkini's tutorials on data wareh
 - Modeled business-ready data into a Star Schema for reporting and analytics.
 - Optimized for performance using views, indexing strategies, and partitioning.
 
+  <img width="848" height="481" alt="data_flow" src="https://github.com/user-attachments/assets/44095154-a48b-40be-b04e-197a1b46b985" />
+
+
 ## 🛠️ Technologies Used
 - 🗄️ **Database:** Microsoft SQL Server
 - 🔄 **ETL Tools:** T-SQL scripts, SQL Server Integration Services (SSIS)
