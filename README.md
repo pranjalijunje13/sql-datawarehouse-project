@@ -31,9 +31,12 @@ The implementation is inspired by Baraa Khatib Salkini's tutorials on data wareh
 - 📄 **Data Sources:** CSV files
 - 📊 **Analytics:** SQL-based reports and dashboards
 
-  <img width="851" height="551" alt="data_integration" src="https://github.com/user-attachments/assets/b57554b6-1f84-43f9-9d34-d6ef9ed6533d" />
+<img width="822" height="551" alt="integration_model" src="https://github.com/user-attachments/assets/cc4f9554-2151-488e-b48f-d3ae0a2a0173" />
 
+- The Gold Layer is a star schema with one fact table and two dimension tables, linked through surrogate keys.
 
+<img width="752" height="453" alt="data_model" src="https://github.com/user-attachments/assets/1fc5abe3-d7fa-4a7d-934e-aabeb1a703f4" />
+ 
 ## 🎯 Objectives
 - Implement a structured ETL pipeline using T-SQL and SSIS.
 - Support batch processing with full-load strategies for raw data ingestion.
