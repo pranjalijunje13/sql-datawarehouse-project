@@ -1,37 +1,43 @@
-## Data Warehouse and Analytics Project
+# 🏛️ SQL Server Data Warehouse Project
 
-Welcome to the Data Warehouse and Analytics Project repository!
+A modern Data Warehouse built on Microsoft SQL Server that turns raw CRM and ERP data into clean, business-ready insights. It delivers a complete ETL pipeline with batch processing and analytics, organized using the Medallion Architecture (Bronze, Silver, Gold).
 
----
+The implementation is inspired by Baraa Khatib Salkini's tutorials on data warehousing.
 
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio projec highlights industry best practices in data engineering and analytics.
+## 🗂️ Project Structure
 
-## Project Requirements
+### 🥉 Bronze Layer
+- Extracted and loaded CRM and ERP data from CSV files into staging tables.
+- Implemented full-load batch processing for initial ingestion.
 
-### Building the Data Warehouse (Data Engineering)
+### 🥈 Silver Layer
+- Built the Integration Model with data cleansing, transformation, and normalization.
+- Designed reusable stored procedures for data transformations.
+- Established a data catalog for structured metadata and improved discoverability.
 
-#### Objective
-Develop modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+### 🥇 Gold Layer
+- Modeled business-ready data into a Star Schema for reporting and analytics.
+- Optimized for performance using views, indexing strategies, and partitioning.
 
-#### Specifications
-*Data Sources*: Import data from two source systems (ERP and CRM) provided as CSV files.
-*Data Quality*: Cleanse and resolve data quality issues prior to analysis.
-*Integration*: Combine both sources into a single, user-friendly data model designed for analytical queries.
-*Scope*: Focus on the latest dataset only; historization of data is not required.
-*Documentation*: Provide clear documentation the data model to support both business stakeholders and analytics teams.
+## 🛠️ Technologies Used
+- 🗄️ **Database:** Microsoft SQL Server
+- 🔄 **ETL Tools:** T-SQL scripts, SQL Server Integration Services (SSIS)
+- 📄 **Data Sources:** CSV files
+- 📊 **Analytics:** SQL-based reports and dashboards
 
+## 🎯 Objectives
+- Implement a structured ETL pipeline using T-SQL and SSIS.
+- Support batch processing with full-load strategies for raw data ingestion.
+- Apply the Medallion Architecture (Bronze, Silver, Gold) for layered data processing.
+- Use stored procedures for modular and reusable ETL logic.
+- Maintain a data catalog for clear lineage and data definitions.
+- Design a Star Schema for business intelligence and analytics.
+- Optimize performance with views, indexes, and query tuning.
+- Provide a scalable and extensible data warehouse model.
 
-### BI: Analytics & Reporting (Data Analytics)
-
-#### Objective
-
-Develop SQL-based analytics to deliver detailed insights into:
-*Customer Behavior*
-*Product Performance*
-*Sales Trends*
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
-
+## 📚 Resources
+- 🎥 **YouTube Channel:** [Data with Baraa](https://www.youtube.com/@DataWithBaraa)
+- 📺 **Tutorial Video:** SQL Data Warehouse from Scratch | Full Hands-On Data Engineering Project
 ---
 
 ## License 
