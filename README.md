@@ -31,6 +31,9 @@ The implementation is inspired by Baraa Khatib Salkini's tutorials on data wareh
 - 📄 **Data Sources:** CSV files
 - 📊 **Analytics:** SQL-based reports and dashboards
 
+  <img width="851" height="551" alt="data_integration" src="https://github.com/user-attachments/assets/b57554b6-1f84-43f9-9d34-d6ef9ed6533d" />
+
+
 ## 🎯 Objectives
 - Implement a structured ETL pipeline using T-SQL and SSIS.
 - Support batch processing with full-load strategies for raw data ingestion.
