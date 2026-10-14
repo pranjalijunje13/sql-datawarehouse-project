@@ -2,7 +2,7 @@
 
 A modern Data Warehouse built on Microsoft SQL Server that turns raw CRM and ERP data into clean, business-ready insights. It delivers a complete ETL pipeline with batch processing and analytics, organized using the Medallion Architecture (Bronze, Silver, Gold).
 
-
+<img width="742" height="574" alt="data_architecture" src="https://github.com/user-attachments/assets/3c2ff7ce-46e0-4f94-83c2-e8f572af6647" />
 
 
 The implementation is inspired by Baraa Khatib Salkini's tutorials on data warehousing.
